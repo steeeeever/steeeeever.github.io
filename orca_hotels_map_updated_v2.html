@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_302807e4eadeee681d4dac62e5ef6861 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+
+</head>
+<body>
+
+
+            <div class="folium-map" id="map_302807e4eadeee681d4dac62e5ef6861" ></div>
+
+</body>
+<script>
+
+
+            var map_302807e4eadeee681d4dac62e5ef6861 = L.map(
+                "map_302807e4eadeee681d4dac62e5ef6861",
+                {
+                    center: [43.7564, 7.1499],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_c5f7b1087b19e3e607f68759dfec391a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_302807e4eadeee681d4dac62e5ef6861);
+
+
+            var marker_3227b98cdc69613d23450e63a8d0dae2 = L.marker(
+                [43.7436, 7.1681],
+                {}
+            ).addTo(map_302807e4eadeee681d4dac62e5ef6861);
+
+
+            var icon_970add57d95c291b77aece524bacf6c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3227b98cdc69613d23450e63a8d0dae2.setIcon(icon_970add57d95c291b77aece524bacf6c0);
+
+
+        var popup_e6d46af10724077de95e817107e1316b = L.popup({"maxWidth": 300});
+
+
+            var html_641fb39943377fe4bd3b2a4004a132c1 = $(`<div id="html_641fb39943377fe4bd3b2a4004a132c1" style="width: 100.0%; height: 100.0%;">Château Saint Jeannet (venue)</div>`)[0];
+            popup_e6d46af10724077de95e817107e1316b.setContent(html_641fb39943377fe4bd3b2a4004a132c1);
+
+
+        marker_3227b98cdc69613d23450e63a8d0dae2.bindPopup(popup_e6d46af10724077de95e817107e1316b)
+        ;
+
+
+
+
+            var marker_c593cd0e7349806f0a6046dda78c54d3 = L.marker(
+                [43.74519, 7.1337],
+                {}
+            ).addTo(map_302807e4eadeee681d4dac62e5ef6861);
+
+
+            var icon_3a4c9a59f59fad247b8931e10f3574e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c593cd0e7349806f0a6046dda78c54d3.setIcon(icon_3a4c9a59f59fad247b8931e10f3574e9);
+
+
+        var popup_5e0be5efcb41499fdb030e3c5da79ae6 = L.popup({"maxWidth": 300});
+
+
+            var html_4405ed9a2244aa5c425b8475170380cf = $(`<div id="html_4405ed9a2244aa5c425b8475170380cf" style="width: 100.0%; height: 100.0%;">Hotel Le Moulin Camoula<br>Rating: 4.2/5 (based on 150 reviews)<br><a href='https://www.moulincamoula.fr/en-GB/accueil' target='_blank'>Hotel Website</a></div>`)[0];
+            popup_5e0be5efcb41499fdb030e3c5da79ae6.setContent(html_4405ed9a2244aa5c425b8475170380cf);
+
+
+        marker_c593cd0e7349806f0a6046dda78c54d3.bindPopup(popup_5e0be5efcb41499fdb030e3c5da79ae6)
+        ;
+
+
+
+
+            var marker_e180ffa80d6c284fafe567e57223165e = L.marker(
+                [43.7321, 7.1623],
+                {}
+            ).addTo(map_302807e4eadeee681d4dac62e5ef6861);
+
+
+            var icon_bf0a5b97f1c740df7309d241326bda41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e180ffa80d6c284fafe567e57223165e.setIcon(icon_bf0a5b97f1c740df7309d241326bda41);
+
+
+        var popup_435b98acafc52491e3c9b6c3af7d35b5 = L.popup({"maxWidth": 300});
+
+
+            var html_ee4e35b7cfa716edc3dcbf69b6f695af = $(`<div id="html_ee4e35b7cfa716edc3dcbf69b6f695af" style="width: 100.0%; height: 100.0%;">Hotel du Baou<br>Rating: 3.9/5 (based on 220 reviews)<br><a href='http://www.hoteldubaou.com/' target='_blank'>Hotel Website</a></div>`)[0];
+            popup_435b98acafc52491e3c9b6c3af7d35b5.setContent(html_ee4e35b7cfa716edc3dcbf69b6f695af);
+
+
+        marker_e180ffa80d6c284fafe567e57223165e.bindPopup(popup_435b98acafc52491e3c9b6c3af7d35b5)
+        ;
+
+
+
+
+            var marker_207372960ee4a7911c9ec028039a4cf6 = L.marker(
+                [43.7711, 7.2007],
+                {}
+            ).addTo(map_302807e4eadeee681d4dac62e5ef6861);
+
+
+            var icon_4e077557b090ff938df1a5ea49767ce8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_207372960ee4a7911c9ec028039a4cf6.setIcon(icon_4e077557b090ff938df1a5ea49767ce8);
+
+
+        var popup_ebba4414f5d4cec0631b8c719cf44ada = L.popup({"maxWidth": 300});
+
+
+            var html_31cbc5d6e3a42182e09f45fb09720c44 = $(`<div id="html_31cbc5d6e3a42182e09f45fb09720c44" style="width: 100.0%; height: 100.0%;">Lou Castelet - Carros<br>Rating: 4.0/5 (based on 180 reviews)<br><a href='https://loucastelet.com/' target='_blank'>Hotel Website</a></div>`)[0];
+            popup_ebba4414f5d4cec0631b8c719cf44ada.setContent(html_31cbc5d6e3a42182e09f45fb09720c44);
+
+
+        marker_207372960ee4a7911c9ec028039a4cf6.bindPopup(popup_ebba4414f5d4cec0631b8c719cf44ada)
+        ;
+
+
+
+
+            var marker_5e306b883f5bcaf45960fcdd5c6fe54a = L.marker(
+                [43.7154, 7.1199],
+                {}
+            ).addTo(map_302807e4eadeee681d4dac62e5ef6861);
+
+
+            var icon_1c60b5e72c7e6360da9d88c1e7807f5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5e306b883f5bcaf45960fcdd5c6fe54a.setIcon(icon_1c60b5e72c7e6360da9d88c1e7807f5f);
+
+
+        var popup_bb8aa39ebd4e569421f910821455093e = L.popup({"maxWidth": 300});
+
+
+            var html_85aed0e25c94f9096dfee280ae38ee78 = $(`<div id="html_85aed0e25c94f9096dfee280ae38ee78" style="width: 100.0%; height: 100.0%;">Hotel Cantermerle - Vence<br>Rating: 4.5/5 (based on 100 reviews)<br><a href='https://www.cantemerle-hotel-vence.com/en/' target='_blank'>Hotel Website</a></div>`)[0];
+            popup_bb8aa39ebd4e569421f910821455093e.setContent(html_85aed0e25c94f9096dfee280ae38ee78);
+
+
+        marker_5e306b883f5bcaf45960fcdd5c6fe54a.bindPopup(popup_bb8aa39ebd4e569421f910821455093e)
+        ;
+
+
+
+
+            var marker_d0acdd1fd82ccac9410ca6eaf585e778 = L.marker(
+                [43.7317, 7.1061],
+                {}
+            ).addTo(map_302807e4eadeee681d4dac62e5ef6861);
+
+
+            var icon_26dd55ce27f9e5f4457500c82e040522 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d0acdd1fd82ccac9410ca6eaf585e778.setIcon(icon_26dd55ce27f9e5f4457500c82e040522);
+
+
+        var popup_32a1efae34cb40c269e537a3a1756c68 = L.popup({"maxWidth": 300});
+
+
+            var html_f6c83e2c5f434f615ae7baba7e168dad = $(`<div id="html_f6c83e2c5f434f615ae7baba7e168dad" style="width: 100.0%; height: 100.0%;">Château Saint Martin<br>Rating: 4.8/5 (based on 75 reviews)<br><a href='https://www.oetkercollection.com/hotels/chateau-saint-martin/' target='_blank'>Hotel Website</a></div>`)[0];
+            popup_32a1efae34cb40c269e537a3a1756c68.setContent(html_f6c83e2c5f434f615ae7baba7e168dad);
+
+
+        marker_d0acdd1fd82ccac9410ca6eaf585e778.bindPopup(popup_32a1efae34cb40c269e537a3a1756c68)
+        ;
+
+
+
+
+</script>
+</html>
